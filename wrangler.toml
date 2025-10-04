@@ -1,0 +1,8 @@
+name = "forest-tree-hole"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "forest-tree-hole"
+
+[[env.production.routes]]
+pattern = "forest-tree-hole.pages.dev/*"
