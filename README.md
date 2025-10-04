@@ -4,7 +4,7 @@
 
 # Forest Tree Hole 🌳
 
-A modern React social media app with AI integration, built with Vite and TypeScript.
+A modern React social media app built with Vite and TypeScript.
 
 ## Features
 
@@ -12,7 +12,6 @@ A modern React social media app with AI integration, built with Vite and TypeScr
 - 📝 Post creation and management
 - 💬 Reply system
 - 🏷️ Tag system
-- 🤖 AI-powered features with Gemini
 - 📱 Responsive design
 - 🔐 User authentication
 
@@ -20,7 +19,6 @@ A modern React social media app with AI integration, built with Vite and TypeScr
 
 - **Frontend**: React 19, TypeScript, Vite
 - **Routing**: React Router DOM
-- **AI**: Google Gemini API
 - **Styling**: CSS Modules
 - **Deployment**: Cloudflare Pages
 
@@ -33,19 +31,12 @@ A modern React social media app with AI integration, built with Vite and TypeScr
    npm install
    ```
 
-2. Set up environment variables:
-   - Create a `.env.local` file
-   - Add your Gemini API key:
-     ```
-     GEMINI_API_KEY=your_api_key_here
-     ```
-
-3. Run the development server:
+2. Run the development server:
    ```bash
    npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Deploy to Cloudflare Pages
 
@@ -60,10 +51,7 @@ A modern React social media app with AI integration, built with Vite and TypeScr
    - Build output directory: `dist`
    - Root directory: `/` (leave empty)
 
-3. **Set Environment Variables**
-   - Add `GEMINI_API_KEY` with your Gemini API key
-
-4. **Deploy**
+3. **Deploy**
    - Click "Save and Deploy"
    - Your site will be available at `https://forest-tree-hole.pages.dev`
 
